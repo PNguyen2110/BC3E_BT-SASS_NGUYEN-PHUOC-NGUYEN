@@ -21,13 +21,14 @@ scrollHeader()
 document.querySelector('.bar a').onclick = function() {
     
     var barClick = document.querySelector('.bar').classList.toggle('barClick');
-  
+    
     if(barClick){
-       
+        document.querySelector('.carousel .container').style.paddingLeft = "300px"
         document.body.style.overflow = 'hidden';
     }
     else{
         document.body.style.overflow = 'visible';
+        document.querySelector('.carousel .container').style.paddingLeft = "0"
     }
 }
 

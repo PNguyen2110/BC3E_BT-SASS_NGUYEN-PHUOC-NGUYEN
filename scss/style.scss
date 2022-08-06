@@ -112,6 +112,7 @@ h5{
 
 // 
 .barClick{
+    transition: all 0.5s;
     padding-left: 300px;
     .item1{
         transform:translateY(9px) rotate(45deg);
@@ -330,7 +331,7 @@ h5{
 // carousel
 
 .carousel{
-    // height:700px;
+   
    
     padding-bottom: 60px;
     // position: absolute;
@@ -353,7 +354,7 @@ h5{
 
 
     .container{
-      
+        transition: all 0.5s;
         max-width: 1200px;
         margin: 0 auto;
         display:flex;
